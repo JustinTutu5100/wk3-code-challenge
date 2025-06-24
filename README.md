@@ -4,7 +4,7 @@
  ## Setup Instructions  
 1. Clone the repo from git hub 
 2. Go into the folder useing cd in ur terminal 
-3. Install json-server: npm install -g json-server@0.17.4  
+3. Install json-server: npm install -g json-server
 4. Start the backend: json-server db.json  
 5. Start the frontend: live-server for your html 
 
