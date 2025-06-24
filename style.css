@@ -1,0 +1,115 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  background-color:#4c95b2;
+  color: #221f1f;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1a1a1a;
+}
+
+#post-list {
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: rgb(199, 182, 182);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#post-list div {
+  padding: 0.5rem;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#post-list div:hover {
+  background-color: #f0f8ff;
+}
+
+#post-detail {
+  padding: 1rem;
+  background-color: rgb(190, 179, 179);
+  border: 1px solid #ccc;
+  margin-bottom: 2rem;
+}
+
+#post-detail img {
+  margin: 1rem 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#post-detail button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#edit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+#edit-button:hover {
+  background-color: #0056b3;
+}
+
+#delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+#delete-button:hover {
+  background-color: #a71d2a;
+}
+
+form {
+  background-color: rgb(171, 159, 159);
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 2rem;
+}
+
+form input,form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #cdd7de;
+}
+
+form button {
+  background-color: #28a745;
+  color: rgb(208, 194, 194);
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+#cancel-edit {
+  background-color: #6c757d;
+}
+
+#cancel-edit:hover {
+  background-color: #5a6268;
+}
+
+.hidden {
+  display: none;
+}
